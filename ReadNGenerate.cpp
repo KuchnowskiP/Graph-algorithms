@@ -1,5 +1,5 @@
 //
-// Created by kuchn on 30.03.2023.
+// Created by Piotr Kuchnowski on 30.03.2023.
 //
 
 #include "ReadNGenerate.h"

@@ -1,5 +1,5 @@
 //
-// Created by kuchn on 18.03.2023.
+// Created by Piotr Kuchnowski on 18.03.2023.
 //
 
 #ifndef UNTITLED_DLNEIGHBOURLIST_H

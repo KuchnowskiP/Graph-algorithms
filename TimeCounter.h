@@ -1,5 +1,5 @@
 //
-// Created by kuchn on 4/13/2023.
+// Created by Piotr Kuchnowski on 4/13/2023.
 //
 
 #ifndef UNTITLED_TIMECOUNTER_H

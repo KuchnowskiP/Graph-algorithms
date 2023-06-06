@@ -1,5 +1,5 @@
 //
-// Created by kuchn on 21.03.2023.
+// Created by Piotr Kuchnowski on 21.03.2023.
 //
 #include "Matrix.h"
 #include <string>
