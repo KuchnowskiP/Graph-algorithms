@@ -1,0 +1,5 @@
+	PrimList	PrimMatrix	KruskalList	KruskalMatrix
+10
+99	311	272	539	538
+100
+99	7775	-1282	-7917	16950

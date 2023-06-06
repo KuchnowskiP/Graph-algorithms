@@ -1,0 +1,18 @@
+# ninja log v5
+357	699	7074134668958456	untitled3.exe	64a80f298ef26187
+25	107	7073388370752212	CMakeFiles/untitled3.dir/AdjacencyLists.cpp.obj	85bb4b58bcab7a79
+11	345	7073388373159399	CMakeFiles/untitled3.dir/Matrix.cpp.obj	8d7276793a84146
+254	341	1685390621440262396	untitled3	40f91fc241995499
+3	342	7074131308309580	CMakeFiles/untitled3.dir/ShortestPath.cpp.obj	9fd6fe574b41b72a
+21	130	7073388370912174	CMakeFiles/untitled3.dir/DLNeighbourList.cpp.obj	4653a850a7860eee
+28	135	7073388371053840	CMakeFiles/untitled3.dir/PriorityQueue.cpp.obj	71cb7fcbf60d0d9a
+4	415	7073571180753464	CMakeFiles/untitled3.dir/main.cpp.obj	3dcf8afce43f4b50
+3	356	7074134665600795	CMakeFiles/untitled3.dir/MST.cpp.obj	ee42f2de7a072f94
+17	735	7073388377053662	CMakeFiles/untitled3.dir/ReadNGenerate.cpp.obj	ac34c45eb7bac923
+14	2957	7073388399277222	CMakeFiles/untitled3.dir/TimeCounter.cpp.obj	db1bc0e610d3f326
+2	343	7074158342732459	CMakeFiles/untitled3.dir/MST.cpp.obj	ee42f2de7a072f94
+344	744	7074158346629686	untitled3.exe	64a80f298ef26187
+3	361	7074159132332102	CMakeFiles/untitled3.dir/MST.cpp.obj	ee42f2de7a072f94
+362	735	7074159135996319	untitled3.exe	64a80f298ef26187
+2	360	7074159731595200	CMakeFiles/untitled3.dir/MST.cpp.obj	ee42f2de7a072f94
+361	723	7074159735127454	untitled3.exe	64a80f298ef26187
