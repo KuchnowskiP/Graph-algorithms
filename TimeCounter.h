@@ -6,11 +6,11 @@
 #define UNTITLED_TIMECOUNTER_H
 
 class TimeCounter {
-    long long int read_QPC();               //pobranie momentu startu
+    long long int read_QPC();               //getting current clock
 public:
-    void startTimer(long long int &start);  //funkcja startujaca timer, zwracajaca moment startu
-    void getTime(long long int start);      //funkcja stopujaca timer, obliczajaca ile czasu uplynelo od startu
-    long long int returnTime(long long int start);      //funkcja stopujaca timer, obliczajaca ile czasu uplynelo od startu
+    void startTimer(long long int &start);  //function that starts the timer
+    void getTime(long long int start);      //function that stops the timer and just displays passed time
+    long long int returnTime(long long int start);      //function that stops the timer and returns passed time as a long long int value
 };
 
 

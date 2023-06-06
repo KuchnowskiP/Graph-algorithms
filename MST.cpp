@@ -367,6 +367,8 @@ void MST::merge(MST::Edge *arr, int low, int mid, int high) {
 
     delete[] temp;
 }
+/*The test procedure consists in generating random graphs with positive edge weights and given density.
+ * We execute all algorithms and record their execution time. Then we take the arithmetic mean. */
 
 void MST::testProcedure() {
     int percentages[4] = {25,50,75,99};

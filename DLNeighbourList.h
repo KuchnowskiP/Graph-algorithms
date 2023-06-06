@@ -11,11 +11,11 @@ class DLNeighbourList {
 public:
     struct ListNode
     {
-        int data;                                   //wartosc elementu listy
-        int weight;                                 //waga krawedzi
-        ListNode* next;                             //wskaznik na nastepny wezeł
-        ListNode* prev;                             //wskaznik na wezel poprzedzajacy
-        ListNode(int data, ListNode* next, ListNode* prev, int weight){
+        int data;                                   //list item value
+        int weight;                                 //edge weight
+        ListNode* next;                             //pointer to the next list node
+        ListNode* prev;                             //pointer to the previous list's node
+        ListNode(int data, ListNode* next, ListNode* prev, int weight){ //ListNode constructor
             this->data = data;
             this->next = next;
             this->prev = prev;
@@ -23,15 +23,19 @@ public:
         }
     };
 
+    ~DLNeighbourList(){
+        deleteList();
+    }
+
 private:
-    ListNode* headPointer = nullptr;                //wskaznik na glowe
-    ListNode* tailPointer = nullptr;                //wskaznik na ogon
-    int size = 0;                                   //zmienna przechowujaca rozmiar listy
+    ListNode* headPointer = nullptr;                //pointer to the head of list
+    ListNode* tailPointer = nullptr;                //pointer to the tail of list
+    int size = 0;                                   //variable stores the size of list
 
 public:
-    void pushBack(int data, int weight);            //funkcja dodajaca element na koniec listy
-    void deleteList();
-    ListNode* getHead();
+    void pushBack(int data, int weight);            //function that adds a new item to the end of the list
+    void deleteList();                              //function that deletes entire list
+    ListNode* getHead();                            //function that returns the head node
 
 };
 

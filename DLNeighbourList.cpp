@@ -8,7 +8,7 @@
 void DLNeighbourList::pushBack(int data, int weight) {
 ListNode* node = new ListNode(data, nullptr, tailPointer, weight);
 
-    if (headPointer == nullptr)                 //tożsame ze sprawdzeniem, czy lista jest pusta
+    if (headPointer == nullptr)                 //checking if list is empty, if so, new node is also new head and tail
     {
         headPointer = node;
         tailPointer = node;
@@ -34,8 +34,6 @@ void DLNeighbourList::deleteList() {
 
     headPointer = nullptr;
     tailPointer = nullptr;
-
-
 }
 
 DLNeighbourList::ListNode *DLNeighbourList::getHead() {

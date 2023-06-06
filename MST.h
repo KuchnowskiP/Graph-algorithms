@@ -9,6 +9,8 @@
 #include "ReadNGenerate.h"
 #include "PriorityQueue.h"
 
+/*Class implements Prim's and Kruskal's algorithms*/
+
 class MST {
     struct Edge{
         int start, end, weight;

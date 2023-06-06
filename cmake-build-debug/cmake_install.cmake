@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/kuchn/OneDrive/Pulpit/CLionProjects/Projekt2ver4
+# Install script for directory: C:/Users/kuchn/OneDrive/Pulpit/CLionProjects/graphsProj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -10,6 +10,8 @@
 #include "ReadNGenerate.h"
 #include "PriorityQueue.h"
 
+/*Class implements Dijkstra's and Bellman-Ford algorithms*/
+
 class ShortestPath {
     struct Edge{
         int start, end, weight;

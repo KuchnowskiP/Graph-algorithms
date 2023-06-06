@@ -17,7 +17,7 @@ public:
         int start, end, weight;
     };
 
-    void insertCinSafeCheck(int &insert);                                   //funkcja zabezpieczajaca przed wpisaniem nieliczby w miejscu gdzie spodziewana jest liczba
+    void insertCinSafeCheck(int &insert);                                   //A function protecting against entering not a number in a place where a number is expected
     void readFileForMST(AdjacencyLists &adjacencyLists , Matrix &matrix, int &vertexCount, int &edgeCount, std::string filename);
     void readFileForSP(AdjacencyLists &adjacencyLists , Matrix &matrix, int &vertexCount, int &edgeCount, std::string filename, int &startingVertex);
     void generateRandomForMST(AdjacencyLists &adjacencyLists , Matrix &matrix, int vertexCount, int &edgeCount, int percentage);
